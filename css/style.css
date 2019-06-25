@@ -154,7 +154,7 @@ a.navbar-brand span {
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
   font-size: 18px;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   font-weight: 500;
   padding: 5px 38px;
@@ -210,15 +210,15 @@ nav.navbar.navbar-expand-lg.navbar-light {
 }
 
 .one-img {
-  background: url(../images/b1.png)no-repeat center;
+  background: url(../images/b1.png) no-repeat center;
 }
 
 .two-img {
-  background: url(../images/b2.png)no-repeat center;
+  background: url(../images/b2.png) no-repeat center;
 }
 
 .three-img {
-  background: url(../images/b3.png)no-repeat center;
+  background: url(../images/b3.png) no-repeat center;
 }
 
 .slider-img {
@@ -400,7 +400,7 @@ list-style: none;
   background-color: rgba(255, 255, 255, 0.05);
   outline: none;
   padding: 10px 22px;
-  border: 1px double #47cf73;
+  border: 2px double #47cf73;
   border-radius: 8px;
 }
 
@@ -710,7 +710,7 @@ label.header {
 /* //order page */
 /*-- services --*/
 .service {
-  background: url(../images/ss1.jpg) no-repeat 0px 0px;
+  background: url(../images/ss1.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   padding-top: 0em;
@@ -1031,7 +1031,7 @@ pointer-events: none;
   text-align: center;
   padding: 2em 2em;
   line-height: 46px;
-  color: #fff;
+  color: #47cf73;
 }
 
 .w3l_service_grid {
@@ -1046,11 +1046,17 @@ pointer-events: none;
   outline: none;
 }
 
-.w3l_service_grid h4 {
+.w3l_service_grid button {
   font-size: 20px;
   font-weight: 600;
   color: #47cf73;
   margin: 1em 0 0.5em;
+  background-color: transparent;
+  border-color: #f76200;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.3rem 0.8rem;
 }
 
 .w3l_service_grid p {
@@ -2313,7 +2319,6 @@ footer p a:hover {
     padding-bottom: 22px;
   }
 }
-
 @media(max-width:800px) {
   .slider-img {
     min-height: 564px;
