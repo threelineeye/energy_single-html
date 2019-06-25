@@ -19,6 +19,7 @@ $(function () {
   })
 
   // carousal service slider
+  // measure中arrows 
   $(document).on('ready', function () {
     $(".center").slick({
       dots: true,
