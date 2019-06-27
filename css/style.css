@@ -1065,6 +1065,8 @@ pointer-events: none;
   font-size: 14px;
   color: #adadad;
   line-height: 28px;
+  overflow: hidden;
+  height: 8rem;
 }
 
 .agileinfo_testimonial_grids {
@@ -1850,6 +1852,10 @@ footer p a:hover {
     font-size: 14px;
   }
 
+  .w3l_service_grid p{
+    height: 9rem;
+  }
+
   .pricing-grid h3 {
     font-size: 19px;
   }
@@ -2254,6 +2260,10 @@ footer p a:hover {
     font-size: 18px;
   }
 
+  .w3l_service_grid p{
+    height: 12rem;
+  }
+
   .ehover14 .overlay {
     top: 17%;
   }
@@ -2346,6 +2356,10 @@ footer p a:hover {
 
   .w3l_service_grid {
     padding: 1.5em 1.2em 1.5em;
+  }
+
+  .w3l_service_grid p{
+    height: 14rem;
   }
 
   .w3l-clients-right {
@@ -2539,6 +2553,10 @@ footer p a:hover {
     left: 0%;
   }
 
+  .w3l_service_grid p{
+    height: 18rem;
+  }
+
   .video-left-w3l iframe {
     width: 533px;
   }
@@ -2634,6 +2652,10 @@ footer p a:hover {
 }
 
 @media(max-width:480px) {
+  .w3l_service_grid p{
+    height: 9rem;
+  }
+
   .slider-info h4 {
     font-size: 2em;
   }
