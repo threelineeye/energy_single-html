@@ -109,7 +109,7 @@ ul {
 }
 
 .clr {
-  color: #fff;
+  color: #00f;
 }
 
 .lft {
@@ -243,6 +243,15 @@ nav.navbar.navbar-expand-lg.navbar-light {
   width: 100%;
   left: 0;
   top: 0;
+}
+
+.flexslider .slides li{
+  height: 18rem;
+}
+
+.flexslider .slides li p{
+  text-indent: 2em;
+  height: 6rem;
 }
 
 .rslides li:first-child {
@@ -1159,11 +1168,13 @@ pointer-events: none;
   width: 80%;
   height: inherit;
   left: 10%;
-  top: 8%;
+  top: 5%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px #47ff73;
   -webkit-transition: opacity 0.35s, transform 0.35s;
   -moz-transition: opacity 0.35s, transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  padding: 2.5em 0;
+  transition: opacity 0.35s, transform 0.0.35s;
+  padding: 1.5em 0;
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   transform: scale(0);
@@ -1217,6 +1228,7 @@ pointer-events: none;
 }
 
 .ehover14:hover .overlay {
+  height:100%;
   -moz-opacity: 1;
   opacity: 1;
   -webkit-transform: scale(1);
@@ -1237,7 +1249,7 @@ pointer-events: none;
 }
 
 .wthree-clients-left {
-  background: url(../images/c11.jpg)no-repeat 0px 0px;
+  background: url(../images/goodCharacter.jpg)no-repeat 0px 0px;
   background-size: cover;
   min-height: 400px;
 }
@@ -1249,7 +1261,7 @@ pointer-events: none;
 
 .flex-active-slide p {
   line-height: 30px;
-  text-align: center;
+  /* text-align: center; */
   color: #fff;
   width: 88%;
   margin: 19px auto;
@@ -1266,10 +1278,12 @@ pointer-events: none;
 /*-- //clients--*/
 /*-- pricing --*/
 .pricing-grid {
-  background: #fff;
+  background: rgba(71,207,115,0.2);
   padding: 2em 1.5em;
   box-shadow: 0 0 8px 0 rgba(161, 161, 161, 0.5);
-  text-align: center;
+  text-align: left;
+  border-radius: 10px;
+  margin-bottom: 3rem;
 }
 
 .pricing-grid h3 {
@@ -1278,6 +1292,7 @@ pointer-events: none;
   color: #186a9a;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 1.2rem;
 }
 
 .w3ls-bottom ul li {
@@ -1984,6 +1999,7 @@ footer p a:hover {
   .ehover14 .overlay {
     padding: 1.5em 0;
   }
+
 
   .flexslider .slides img {
     width: 19%;
